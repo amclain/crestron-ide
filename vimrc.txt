@@ -1,0 +1,10 @@
+set number
+set tabstop=4 softtabstop=4 shiftwidth=4 noexpandtab
+set smartindent
+
+" Crestron SIMPL+
+au BufEnter,BufNew *.usp setf usp
+au BufEnter,BufNew *.usp colorscheme crestron
+au BufEnter,BufNew *.usp compiler crestron
+"au FileType usp set makeprg=spluscc\ \\build\ \"%:p\"\ \\target\ series2\ series3
+"au FileType usp set makeprg=\"C:\\Program\ Files\ (x86)\\Crestron\\Simpl\\SPlusCC.exe\"\ \\build\ \"%:p\"\ \\target\ series2\ series3
