@@ -32,7 +32,7 @@ syn keyword uspCompilerDirectives	#analog_serial_expand #category #crestron_libr
 
 syn keyword uspCENOEMDefinitions	#analog_input_join #analog_output_join #digital_input_join #digital_output_join #string_input_join #string_output_join
 
-syn keyword uspDeclarations	analog_input analog_output buffer_input digital_input digital_output integer integer_parameter long_integer long_integer_parameter nonvolatile signed_integer signed_integer_parameter signed_long_integer signed_long_integer_parameter string string_input string_output string_parameter structure volatile
+syn keyword uspDeclarations	analog_input analog_output buffer_input digital_input digital_output integer integer_parameter long_integer long_integer_parameter nonvolatile signed_integer signed_integer_parameter signed_long_integer signed_long_integer_parameter string string_input string_output string_parameter structure volatile _skip_
 
 syn keyword uspFunctions	function string_function integer_function
 
